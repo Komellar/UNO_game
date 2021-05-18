@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    font-size: 25px;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+    color: #1d1b1b;
+}
+body {
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(to right, rgb(207, 189, 189), rgb(247, 225, 197));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    cursor: pointer;
+}
+.container {
+    margin-top: 1em;
+    max-width: 80%;
+
+}
+#start, #restart{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #c92c8d;
+}
+#get__card {
+    justify-content: center;
+    align-content: center;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: hsl(180, 61%, 48%);
+}
+#round {
+    width: auto;
+    height: auto;
+    padding: 10px;
+    margin: 0 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #c5a230;
+}
+.over__everything {
+    display: flex;
+    justify-content: center;
+}
+.my__buttons {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+#main {
+    display: flex;
+    justify-content: center;
+    margin: 2em 0;
+}
+#main__card {
+    padding: 70px 50px;
+    border-radius: 7px;
+}
+.hand__cards {
+    display: inline-flex;
+    align-items: bottom;
+    padding: 70px 50px;
+    margin: 10px;
+    border: none;
+    border-radius: 7px;
+    align-content: bottom;
+}
+.hide {
+    display: none;
+}
